@@ -1,0 +1,73 @@
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+}
+
+a:link,a:visited{
+    display:ruby;
+    font-weight: bold;
+    color: rgb(88, 60, 88);
+  background-color:none;
+  width:100px;
+  text-align:center ;
+  padding:25px;
+  text-transform:uppercase;  
+  text-decoration:none;
+}
+
+a:hover,a:active{
+    background-color: rgb(223, 28, 223);
+}
+li{
+    float:left;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:rgb(90, 201, 238);
+    line-height: 1.6;
+}
+
+#showcase{
+    background-image: url('https://thumbs.dreamstime.com/b/youtube-icon-design-vector-youtube-icon-design-vector-vector-eps-illustration-best-print-media-web-design-application-125527164.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase h1{
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+#showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color:rgb(82, 209, 252);
+    border: rgb(96, 198, 231) 1px solid;
+    padding:10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#showcase .button:hover{
+    background:rgb(107, 213, 248);
+    color:#fff;
+}d-\
